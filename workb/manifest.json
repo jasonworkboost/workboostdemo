@@ -1,0 +1,30 @@
+{
+    "name": "WorkBoost",
+    "short_name": "WorkBoost",
+    "start_url": "/home",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#FFFFFF",
+    "orientation": "portrait-primary",
+    "description": "WorkBoost: Turning strategy to results",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [
+        {
+          "src": "/src/assets/img/logoSmallWB.png",
+          "sizes": "48x48",
+          "type": "image/png"
+        },
+        {
+          "src": "/src/assets/img/logoSmallWB.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        },
+        {
+          "src": "/src/assets/img/logoSmallWB.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+  }
