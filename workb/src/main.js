@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import VueMaterial from 'vue-material';
 import App from './App.vue';
 import VueRouter from 'vue-router';
 import axios from 'axios';
@@ -8,6 +9,7 @@ import '../serviceWorker';
 
 
 Vue.use(VueRouter);
+Vue.use(VueMaterial);
 
 global.router = new VueRouter({
     routes,

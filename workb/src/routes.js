@@ -23,6 +23,11 @@ const Test = resolve => {
         resolve(require('./assets/components/results/Rgraph.vue'));
     });
 }
+const Table = resolve => {
+    require.ensure (['./assets/components/Table.vue'], () => {
+        resolve(require('./assets/components/Table.vue'));
+    });
+}
 export const routes = [
     { path: '', component: LoginWB},
     { path: '/question', 
@@ -47,6 +52,9 @@ export const routes = [
     },
     {path: '/home', 
         component: Home 
+    },
+    {path: '/table', 
+        component: Table 
     },
     {path: '/link',
         beforeEnter: (to, from, next) => {
@@ -91,4 +99,4 @@ export const routes = [
     },
     { path: '*', redirect:'/' },
     
-] 
+]
