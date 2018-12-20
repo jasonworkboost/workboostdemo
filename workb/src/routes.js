@@ -23,7 +23,6 @@ const Test = resolve => {
         resolve(require('./assets/components/results/Rgraph.vue'));
     });
 }
-
 export const routes = [
     { path: '', component: LoginWB},
     { path: '/question', 
