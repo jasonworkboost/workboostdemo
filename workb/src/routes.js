@@ -19,8 +19,8 @@ const Home = resolve => {
     });
 }
 const Test = resolve => {
-    require.ensure (['./assets/components/results/Rgraph.vue'], () => {
-        resolve(require('./assets/components/results/Rgraph.vue'));
+    require.ensure (['./assets/components/test.vue'], () => {
+        resolve(require('./assets/components/test.vue'));
     });
 }
 
@@ -48,6 +48,10 @@ export const routes = [
     },
     {path: '/home', 
         component: Home 
+    },
+    {
+    path: '/test',
+        component: Test
     },
     {path: '/link',
         beforeEnter: (to, from, next) => {
