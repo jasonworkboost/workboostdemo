@@ -1,13 +1,25 @@
 <template>
-<div id="home">
-    <wb-hmenu></wb-hmenu>
-    <wb-bodyone></wb-bodyone>
+<div>
+    <wb-navigation></wb-navigation>
+    <wb-home></wb-home>
+    <wb-divider></wb-divider>
+    <wb-feature></wb-feature>
+    <wb-pricing></wb-pricing>
+    <wb-download></wb-download>
+    <wb-contact></wb-contact>
+    <wb-pagefooter></wb-pagefooter>
 </div>  
 </template>
 <script>
 
-import Menu from './home/Hmenu.vue';
-import Bodyone from './home/Hbodyone.vue';
+import Navigation from './home/Hnavigation.vue';
+import Home from './home/Hhome.vue';
+import Divider from './home/Hdivider.vue';
+import Feature from './home/Hfeature.vue';
+import Pricing from './home/Hpricing.vue';
+import Download from './home/Hdownload.vue';
+import Contact from './home/Hcontact.vue';
+import Pagefooter from './home/Hpagefooter.vue';
 import {mapGetters} from 'vuex';
 
 
@@ -19,29 +31,27 @@ export default {
     methods:{
     },
     computed:{
-            ...mapGetters([
+        ...mapGetters([
             'colorsWB'
-            ])
+        ])
         },
     components:{
-            wbHmenu:Menu,
-            wbBodyone:Bodyone,
-        },
-     created(){
-        },
+        wbNavigation: Navigation,
+        wbHome: Home,
+        wbDivider: Divider,
+        wbFeatuer: Feature,
+        wbPricing: Pricing,
+        wbDownload: Download,
+        wbContact: Contact,
+        wbPagefoorter: Pagefooter,
+    },
+    created(){
+    },
 }
 </script>
-<style scoped>
-#home{
-    position: relative;
-    background-color:white;
-    width: 100%;
-}
-
-.Cookie--baseee {
-      background: black;
-      color: yellow;
-}
-
+<style lang="scss">
+@import "./home/_variables.scss";
+@import "./home/_global.scss";
+@import "./home/_animate.scss";
 </style>
 
