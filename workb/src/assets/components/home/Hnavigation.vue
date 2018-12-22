@@ -2,14 +2,14 @@
 <nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <button class="navbar-toggle" @click="col = !col">
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
-      <a href="#" class="navbar-brand">WorkBoost</a>
+      <a class="navbar-brand">WorkBoost</a>
     </div>
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" :class="{ in: col }">
       <ul class="nav navbar-nav navbar-right text-uppercase">
         <li><a @click: v-scroll-to="'#home'" >Home</a></li>
         <li><a @click: v-scroll-to="'#feature'">Features</a></li>
@@ -24,6 +24,11 @@
 </template>
 <script>
 export default {
+  data(){
+    return{
+      col: true
+    }
+  }
     
 }
 </script>
