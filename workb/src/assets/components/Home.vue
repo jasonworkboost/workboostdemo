@@ -11,7 +11,6 @@
 </div>  
 </template>
 <script>
-
 import Navigation from './home/Hnavigation.vue';
 import Home from './home/Hhome.vue';
 import Divider from './home/Hdivider.vue';
@@ -39,16 +38,18 @@ export default {
         wbNavigation: Navigation,
         wbHome: Home,
         wbDivider: Divider,
-        wbFeatuer: Feature,
+        wbFeature: Feature,
         wbPricing: Pricing,
         wbDownload: Download,
         wbContact: Contact,
-        wbPagefoorter: Pagefooter,
+        wbPagefooter: Pagefooter,
     },
     created(){
+        new WOW().init();
     },
 }
 </script>
+
 <style lang="scss">
 @import "./home/_variables.scss";
 @import "./home/_global.scss";

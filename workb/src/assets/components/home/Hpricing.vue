@@ -9,7 +9,7 @@
         <div class="pricing text-uppercase">
           <div class="pricing-title">
             <h4>Basic Plan</h4>
-            <p>$11</p>
+            <p>$11000</p>
             <small class="text-lowercase">monthly</small>
           </div>
           <ul>
@@ -25,7 +25,7 @@
         <div class="pricing active text-uppercase">
           <div class="pricing-title">
             <h4>Business Plan</h4>
-            <p>$22</p>
+            <p>$22000</p>
             <small class="text-lowercase">monthly</small>
           </div>
           <ul>
@@ -41,7 +41,7 @@
         <div class="pricing text-uppercase">
           <div class="pricing-title">
             <h4>Pro Plan</h4>
-            <p>$33</p>
+            <p>$33000</p>
             <small class="text-lowercase">monthly</small>
           </div>
           <ul>

@@ -12,7 +12,7 @@
             <a rel="nofollow" href="http://www.facebook.com/templatemo" target="_parent">templatemo</a>. Images by
             <a rel="nofollow" href="http://pixabay.com" target="_blank">Pixabay</a>
           </p>
-          <img src="https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?cs=srgb&dl=achievement-agreement-arms-1068523.jpg&fm=jpg" class="img-responsive" alt="home img">
+          <!-- <img src="https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?cs=srgb&dl=achievement-agreement-arms-1068523.jpg&fm=jpg" class="img-responsive" alt="home img"> -->
         </div>
         <div class="col-md-1"></div>
       </div>

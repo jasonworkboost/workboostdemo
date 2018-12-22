@@ -11,11 +11,11 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right text-uppercase">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#feature">Features</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#download">Download</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a @click: v-scroll-to="'#home'" >Home</a></li>
+        <li><a @click: v-scroll-to="'#feature'">Features</a></li>
+        <li><a @click: v-scroll-to="'#pricing'">Pricing</a></li>
+        <li><a @click: v-scroll-to="'#download'">Download</a></li>
+        <li><a @click: v-scroll-to="'#contact'">Contact</a></li>
       </ul>
     </div>
   </div>
