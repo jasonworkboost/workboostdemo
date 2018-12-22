@@ -18,14 +18,9 @@ const Home = resolve => {
         resolve(require('./assets/components/Home.vue'));
     });
 }
-const Test = resolve => {
-    require.ensure (['./assets/components/results/Rgraph.vue'], () => {
-        resolve(require('./assets/components/results/Rgraph.vue'));
-    });
-}
-const Table = resolve => {
-    require.ensure (['./assets/components/Table.vue'], () => {
-        resolve(require('./assets/components/Table.vue'));
+const Admin = resolve => {
+    require.ensure (['./assets/components/Admin.vue'], () => {
+        resolve(require('./assets/components/Admin.vue'));
     });
 }
 export const routes = [
@@ -53,8 +48,8 @@ export const routes = [
     {path: '/home', 
         component: Home 
     },
-    {path: '/table', 
-        component: Table 
+    {path: '/admin', 
+        component: Admin 
     },
     {path: '/link',
         beforeEnter: (to, from, next) => {
