@@ -4,12 +4,9 @@
   "description": "A Vue.js project",
   "author": "Jason Gawke <jason@workboost.io>",
   "scripts": {
-    "build": "webpack --mode production --progress --hide-modules",
-    "dev": "webpack --mode development",
-    "local": "webpack --mode development",
-    "build2": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "dev2": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot --host 192.168.178.80",
-    "local2": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot --host 192.168.178.80",
+    "local": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot"
   },
   "dependencies": {
     "aes-js": "^3.1.1",
