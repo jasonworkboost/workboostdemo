@@ -1,6 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
-const compiler = require('vue-template-compiler')
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin")
 
 module.exports = {
   entry: './src/main.js',
@@ -40,7 +40,11 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: [{
+          loader: 'style-loader' ,
+          }, {
+          loader: 'css-loader',
+          }],
       },
     ]
   },
@@ -49,6 +53,9 @@ module.exports = {
       //'vue$': 'vue/dist/vue' for development
       'vue$': 'vue/dist/vue.min.js'
     }
+  },
+  optimization: {
+    minimizer: [new UglifyJsPlugin()]
   },
   devServer: {
     historyApiFallback: true,
@@ -59,22 +66,22 @@ module.exports = {
   devtool: '#eval-source-map'
 }
 
-if (process.env.NODE_ENV === 'production') {
-  module.exports.devtool = '#source-map'
-  // http://vue-loader.vuejs.org/en/workflow/production.html
-  module.exports.plugins = (module.exports.plugins || []).concat([
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: '"production"'
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
-    new webpack.LoaderOptionsPlugin({
-      minimize: true
-    })
-  ])
-}
+// if (process.env.NODE_ENV === 'production') {
+//   module.exports.devtool = '#source-map'
+//   // http://vue-loader.vuejs.org/en/workflow/production.html
+//   module.exports.plugins = (module.exports.plugins || []).concat([
+//     new webpack.DefinePlugin({
+//       'process.env': {
+//         NODE_ENV: '"production"'
+//       }
+//     }),
+//     new webpack.optimize.UglifyJsPlugin({
+//       compress: {
+//         warnings: false
+//       }
+//     }),
+//     new webpack.LoaderOptionsPlugin({
+//       minimize: true
+//     })
+//   ])
+// }
