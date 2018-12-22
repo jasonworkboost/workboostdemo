@@ -1,5 +1,6 @@
-var path = require('path')
-var webpack = require('webpack')
+const path = require('path')
+const webpack = require('webpack')
+const compiler = require('vue-template-compiler')
 
 module.exports = {
   entry: './src/main.js',
@@ -12,23 +13,35 @@ module.exports = {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue',
+        loader: 'vue-loader',
         options: {
           // vue-loader options go here
+          vue: {
+            loaders: {
+              scss: 'style!css!sass'
+            }
+          },
         }
       },
       {
-        test: /\.js$/,
-        loader: 'babel',
-        exclude: /node_modules/
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        loader: 'file',
-        options: {
-          name: '[name].[ext]?[hash]'
-        }
-      }
+        loader: 'file-loader',
+        options: {}
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
     ]
   },
   resolve: {
@@ -39,7 +52,9 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true
+    noInfo: false,
+    compress: true,
+    disableHostCheck: true
   },
   devtool: '#eval-source-map'
 }
