@@ -32,7 +32,7 @@
             </div>
             <div class="spacerDiv3"></div>
             <input
-              type="text"
+              type="number"
               class="form-control"
               id="cardID"
               name="wbcard"
@@ -90,6 +90,15 @@ export default {
 };
 </script>
 <style scoped>
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 .container {
   overflow-x: visible;
 }

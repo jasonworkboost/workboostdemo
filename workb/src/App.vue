@@ -1,21 +1,15 @@
 <template>
 <div>
     <router-view></router-view> 
-    <div class="main-wrapper">
-        <cookie-law theme="base--rounded" message="WorkBoost uses cookies to ensure you get the best experience." buttonText="Got It!"></cookie-law>
-  </div>
+    <cookies-wb></cookies-wb>
 </div>
 </template>
 
 <script>
-    import CookieLaw from 'vue-cookie-law';
+    import CookiesWb from './assets/components/home/Hcookie.vue' 
     export default {
-        data() {
-            return {
-            }
-        },
         components:{
-            CookieLaw
+            CookiesWb
         }
     }
 </script>
@@ -23,5 +17,4 @@
     *{
         font-family: Raleway;
     }
-
 </style>
