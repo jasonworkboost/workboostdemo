@@ -1,5 +1,8 @@
 <template>
 <div>
+    <transition name="load" mode="out-in" appear>
+            <wb-loadscreen v-if="loading"></wb-loadscreen>
+    </transition>
     <wb-navigation></wb-navigation>
     <wb-home></wb-home>
     <wb-divider></wb-divider>
@@ -19,15 +22,22 @@ import Pricing from './home/Hpricing.vue';
 import Download from './home/Hdownload.vue';
 import Contact from './home/Hcontact.vue';
 import Pagefooter from './home/Hpagefooter.vue';
+import Loadscreen from './question/Qloadscreen.vue'
 import {mapGetters} from 'vuex';
 
 
 export default {
     data(){
           return {
+              loading: true
           }  
         },
     methods:{
+         loader(){
+                setTimeout(() => {
+                    this.loading = false;
+                }, 1300);
+            },
     },
     computed:{
         ...mapGetters([
@@ -43,9 +53,10 @@ export default {
         wbDownload: Download,
         wbContact: Contact,
         wbPagefooter: Pagefooter,
+        wbLoadscreen: Loadscreen,
     },
     created(){
-        new WOW().init();
+        this.loader();
     },
 }
 </script>
@@ -54,5 +65,19 @@ export default {
 @import "./home/_variables.scss";
 @import "./home/_global.scss";
 @import "./home/_animate.scss";
+
+.load-enter-active, .load-leave-active {
+    transition: all .5s;
+    }
+    .load-enter {
+    opacity: 1;
+    }
+    .load-enter-to {
+    opacity: 1;
+    }
+    .load-leave-to
+    {
+    opacity: 0;
+    }
 </style>
 

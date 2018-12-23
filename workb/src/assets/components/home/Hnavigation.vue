@@ -10,7 +10,7 @@
       <a class="navbar-brand">WorkBoost</a>
     </div>
     <div class="collapse navbar-collapse" :class="{ in: col }">
-      <ul class="nav navbar-nav navbar-right text-uppercase">
+      <ul class="nav navbar-nav navbar-right text-uppercase" @click="col = !col">
         <li><a @click: v-scroll-to="'#home'" >Home</a></li>
         <li><a @click: v-scroll-to="'#feature'">Features</a></li>
         <li><a @click: v-scroll-to="'#pricing'">Pricing</a></li>
@@ -26,7 +26,7 @@
 export default {
   data(){
     return{
-      col: true
+      col: false
     }
   }
     
