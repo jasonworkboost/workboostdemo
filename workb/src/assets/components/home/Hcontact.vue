@@ -1,6 +1,6 @@
 <template>
 <section id="contact">
-  <div class="overlay">
+  <div class="overlayy">
     <div class="container">
       <div class="row">
         <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">

@@ -100,7 +100,6 @@
     }
     .container {
         height: 100vh;
-        overflow-x: hidden;
     }
     .spacerrr{
         height: 5%;

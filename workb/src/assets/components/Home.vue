@@ -5,7 +5,7 @@
     </transition>
     <wb-navigation></wb-navigation>
     <wb-home></wb-home>
-    <wb-divider></wb-divider>
+    <!-- <wb-divider></wb-divider> -->
     <wb-feature></wb-feature>
     <wb-pricing></wb-pricing>
     <wb-download></wb-download>
@@ -62,9 +62,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./home/_variables.scss";
 @import "./home/_global.scss";
-@import "./home/_animate.scss";
+// @import "./home/_variables.scss";
 
 .load-enter-active, .load-leave-active {
     transition: all .5s;
