@@ -1,16 +1,15 @@
 <template>
 <div>
     <router-view></router-view> 
+    <cookies-wb></cookies-wb>
 </div>
 </template>
 
 <script>
+    import CookiesWb from './assets/components/home/Hcookie.vue' 
     export default {
-        data() {
-            return {
-            }
-        },
         components:{
+            CookiesWb
         }
     }
 </script>
@@ -18,5 +17,4 @@
     *{
         font-family: Raleway;
     }
-
 </style>

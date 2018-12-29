@@ -1,4 +1,4 @@
-import { Line } from 'vue-chartjs'
+import { Line } from 'vue-chartjs';
 import {mapGetters} from 'vuex';
 
 export default {

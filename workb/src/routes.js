@@ -18,12 +18,11 @@ const Home = resolve => {
         resolve(require('./assets/components/Home.vue'));
     });
 }
-const Test = resolve => {
-    require.ensure (['./assets/components/results/Rgraph.vue'], () => {
-        resolve(require('./assets/components/results/Rgraph.vue'));
+const Admin = resolve => {
+    require.ensure (['./assets/components/Admin.vue'], () => {
+        resolve(require('./assets/components/Admin.vue'));
     });
 }
-
 export const routes = [
     { path: '', component: LoginWB},
     { path: '/question', 
@@ -48,6 +47,9 @@ export const routes = [
     },
     {path: '/home', 
         component: Home 
+    },
+    {path: '/admin', 
+        component: Admin 
     },
     {path: '/link',
         beforeEnter: (to, from, next) => {
@@ -92,4 +94,4 @@ export const routes = [
     },
     { path: '*', redirect:'/' },
     
-] 
+]

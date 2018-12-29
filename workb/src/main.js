@@ -5,9 +5,11 @@ import axios from 'axios';
 import { store } from './assets/store/store.js';
 import { routes } from './routes';
 import '../serviceWorker';
+import vuescrollto from 'vue-scrollto';
 
 
 Vue.use(VueRouter);
+Vue.use(vuescrollto);
 
 global.router = new VueRouter({
     routes,
