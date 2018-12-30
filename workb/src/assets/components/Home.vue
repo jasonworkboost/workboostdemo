@@ -7,7 +7,7 @@
     <wb-home></wb-home>
     <!-- <wb-divider></wb-divider> -->
     <wb-feature></wb-feature>
-    <wb-pricing></wb-pricing>
+    <!-- <wb-pricing></wb-pricing> -->
     <wb-download></wb-download>
     <wb-contact></wb-contact>
     <wb-pagefooter></wb-pagefooter>

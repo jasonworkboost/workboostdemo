@@ -19,7 +19,7 @@ body
 }
 
 .tm-black a {
-	color: #000;
+    color: #000;
 }
 
 /* start h1 group */
@@ -49,8 +49,8 @@ img
     {
        width: 100%;
        height: 100%;
-       //background: rgba(0, 0, 0, 0.4);
-       padding-top: 90px;
+       background: rgba(23,200,188, 1);
+       padding-top: 70px;
        padding-bottom: 90px;
     } 
 .overlayy 
@@ -88,7 +88,7 @@ img
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         margin: 0!important;
     }
-.navbar-default .navbar-brand
+.navbar-default .navbar-brand 
     {
         color: #fc4a1a;
         font-size: 30px;
@@ -96,17 +96,17 @@ img
         height: 70px;
         line-height: 35px;
     }
-    .navbar-default .navbar-brand:hover{
+.navbar-default .navbar-brand:hover{
         color: #fc4a1a;
         cursor: pointer;
     }
 .navbar-default .nav li a
     {
         color: #17C8BC;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         height: 70px;
-        line-height: 40px;
+        line-height: 52px;
     }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus,
@@ -123,11 +123,34 @@ img
     }
 .navbar-default .navbar-toggle .icon-bar
     {
-        background: #28a7e9;
+        background: #17C8BC;
         border-color: transparent;
     }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: transparent }
+
+.navbar-default .dashboard{
+    color: #17C8BC;
+    font-size: 15px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 52px;
+}
+.navbar-default .dashboard:hover,
+.navbar-default .dashboard:focus{
+    background-color: transparent;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.navbar-default .navbar-brand .brandsmall{
+    display: none;
+}
+
+.navbar-default .navbar-brand .brandbig{
+    display: block;
+}
+
 /* end navigation */
 
 /* start home */       
@@ -147,10 +170,18 @@ img
 }
 #home p
     {
-        font-weight: 400;
+        font-weight: 500;
         font-style: italic;
         line-height: 2em;
+        text-align: left;
+        font-size: large;
+        color: white;
     }
+#home h1{
+    text-align: left;
+    font-weight: 600;
+    color: white;
+}
 #home img
     {
         display: inline-block;
@@ -159,11 +190,7 @@ img
 #home .phoneblob {
     position: relative;
 }
-#home .phoneblob #blob {
-    position: absolute;
-    left:0;
-    top:-400px;
-}
+
 #home .phoneblob #phone {
     z-index: 1;
 }
@@ -171,16 +198,76 @@ img
 @keyframes blobani{
     0% {transform: scale(1,1);}
     33% {transform: scale(1.02,1.03);}
-    54% {transform: scale(1.03,1.05);}
-    71% {transform: scale(1.03,0.98);}
+    40% {transform: scale(1.05,1.03);}
+    54% {transform: scale(1.05,1.05);}
+    74% {transform: scale(1.05,1.10);}
     100% {transform: scale(1,1);}
 }
 
 #home .phoneblob #phone #pathblob{
     animation-name: blobani;
-    animation-duration: 12s; 
+    animation-duration: 6s; 
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
+}
+
+#home .text-upper{
+    padding-top: 20px;
+    line-height: 5rem;
+}
+
+#home .calltoaction{
+    position: relative;
+    margin-left: 0;
+    margin-top: 8vh;
+    background-color: white;
+    width: 80%;
+    min-width: 300px;
+    height: 60px;
+    -webkit-box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.3);
+    border-color: white;
+}
+
+#home .calltoaction:before{
+    content: ""; 
+    width: 0%; 
+    height: 100%; 
+    position: absolute; 
+    background-color:rgba(255,204,0,1);
+    border-radius: 5px;
+    left: 0;
+     top: 0; 
+     transition:.2s;
+    }
+    #home .calltoaction:after{
+        content: "Get in touch!"; 
+        color: black;
+        width: 100%; 
+        line-height: 35px;
+        font-size: larger;
+        text-align: center;
+        position: absolute; 
+        left: 0;
+        top: 30; 
+        }
+
+#home .calltoaction:hover:before{
+    width: 100%; 
+    cursor: pointer;
+}
+#home .calltoaction:hover:after{
+    color: white;
+    font-weight: 500;
+    Content:"And send us a message!";
+}
+
+#home .calltoaction:active{
+    transform: translateY(3px);
+    -webkit-box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.3)
 }
 /* end home */
 
@@ -420,6 +507,13 @@ footer
     #feature1 img {
         margin-bottom: 30px;
     }
+    #home .calltoaction{
+        margin: auto;
+        margin-top: 8vh;
+    }
+    #home .phoneblob #phone{
+        display: none;
+    }
 }
 @media screen and ( max-width: 767px ) {
     .navbar-default .nav li a {
@@ -433,12 +527,48 @@ footer
     #contact .overlay {
         padding-top: 40px;
     }
+
+    #home .text-upper{
+        padding-top: 0px;
+    }
+    #home .calltoaction{
+        margin: auto;
+        margin-top: 8vh;
+    }
+    #home .phoneblob #phone{
+        display: none;
+    }
+    .navbar-default .navbar-brand .brandsmall{
+        display: block;
+    }
+    
+    .navbar-default .navbar-brand .brandbig{
+        display: none;
+    }
+
 }
 /* start media 360 */
 @media screen and ( max-width: 360px ){
-    .pricing
-        {
+    .pricing{
             padding-bottom: 40px;
         }
+    #home .text-upper{
+        padding-top: 0px;
+    }
+    #home .calltoaction{
+        margin: auto;
+        margin-top: 8vh;
+    }
+    #home .phoneblob #phone{
+        display: none;
+    }
+
+    .navbar-default .navbar-brand .brandsmall{
+        display: block;
+    }
+    
+    .navbar-default .navbar-brand .brandbig{
+        display: none;
+    }
 }
 /* end media 360 */
