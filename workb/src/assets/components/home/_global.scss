@@ -49,7 +49,7 @@ img
     {
        width: 100%;
        height: 100%;
-       background: rgba(23,200,188, 1);
+       background: rgba(23,200,188, .95);
        padding-top: 70px;
        padding-bottom: 90px;
     } 
@@ -157,7 +157,7 @@ img
 #home
     {
     /* I dont know how to work around this in webpack */
-    //background: url('https://images.pexels.com/photos/1187538/pexels-photo-1187538.jpeg?cs=srgb&dl=architecture-black-and-white-building-1187538.jpg&fm=jpg') no-repeat;
+    background: url('https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?cs=srgb&dl=architectural-design-architecture-ceiling-380768.jpg&fm=jpg') no-repeat;
     background-size: cover;
     background-color: #fff;
     color: black;

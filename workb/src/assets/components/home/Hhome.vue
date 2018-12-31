@@ -4,15 +4,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1 class="text-upper">Turn your
+            <h1 class="text-upper">
+              Turn your
               <span class="red">Strategy</span> into
               <span class="red">Results</span>
             </h1>
             <p
               class="tm-white"
-            >
-            "WorkBoost is an employee engagement method that integrates scientific evidence, gamification, and strategy implementation into an easy-to-use app to help you translate your strategy into results."
-            </p>
+            >"WorkBoost is an employee engagement method that integrates scientific evidence, gamification, and strategy implementation into an easy-to-use app to help you translate your strategy into results."</p>
             <div class="btn-lg calltoaction content-center"></div>
           </div>
           <div class="col-md-6">
@@ -51,12 +50,103 @@ l2310 -2 0 -4115z"
                   ></path>
                 </g>
                 <g transform="translate(0,0) scale(1,1)" fill="#e6f2ff" stroke="none">
-                  <rect
-                    width="467"
-                    height="830"
-                    x="199.33"
-                    y="235"
-                  ></rect>
+                  <rect width="467" height="830" x="199.33" y="235"></rect>
+                </g>
+                <g transform="translate(250,360) scale(.8,.8)">
+                  <g transform="translate(0.000000,429.000000) scale(0.100000,-0.100000)">
+                    <path
+                      style="fill: #17C8BC"
+                      d="M1156 3184 c-14 -14 -16 -74 -16 -518 0 -377 3 -505 12 -514 9 -9
+139 -12 524 -12 l513 0 15 22 c14 20 16 85 16 508 0 423 -2 488 -16 508 l-15
+22 -509 0 c-449 0 -510 -2 -524 -16z m934 -514 l0 -410 -415 0 -415 0 0 410 0
+410 415 0 415 0 0 -410z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M2450 3180 c-19 -19 -20 -33 -20 -508 0 -544 -1 -532 65 -532 66 0
+65 -12 65 532 0 475 -1 489 -20 508 -11 11 -31 20 -45 20 -14 0 -34 -9 -45
+-20z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M2767 3182 c-15 -17 -17 -67 -17 -514 0 -467 1 -496 18 -511 24 -22
+65 -21 85 1 15 17 17 67 17 514 0 467 -1 496 -18 511 -24 22 -65 21 -85 -1z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M3081 3174 c-21 -26 -21 -36 -21 -501 0 -473 2 -504 34 -525 20 -14
+63 -8 79 10 15 17 17 67 17 514 0 467 -1 496 -18 511 -28 25 -67 21 -91 -9z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M3400 3180 c-19 -19 -20 -33 -20 -508 0 -544 -1 -532 65 -532 66 0
+65 -12 65 532 0 475 -1 489 -20 508 -11 11 -31 20 -45 20 -14 0 -34 -9 -45
+-20z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M1236 1909 c-99 -28 -121 -159 -37 -216 60 -41 145 -23 176 37 51 98
+-36 209 -139 179z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M1646 1909 c-67 -19 -106 -86 -87 -149 23 -78 112 -114 181 -74 120
+72 40 262 -94 223z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M2034 1901 c-82 -37 -97 -136 -29 -198 61 -58 150 -40 190 37 37 72
+-7 152 -95 173 -15 4 -42 -1 -66 -12z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M1213 1490 c-112 -68 -72 -230 57 -230 132 0 166 185 44 236 -44 19
+-63 18 -101 -6z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M1621 1492 c-35 -19 -71 -72 -71 -105 0 -36 30 -87 62 -107 25 -16
+44 -20 77 -17 124 13 150 185 36 233 -45 18 -63 18 -104 -4z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M2033 1496 c-39 -18 -73 -70 -73 -112 0 -37 36 -94 70 -111 56 -28
+126 -6 160 50 62 101 -49 221 -157 173z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M1212 1084 c-86 -44 -83 -177 4 -219 40 -19 67 -19 104 0 46 24 70
+62 70 111 0 90 -97 149 -178 108z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M1612 1080 c-67 -41 -78 -130 -23 -189 55 -59 148 -49 191 21 37 60
+21 124 -39 165 -42 28 -86 29 -129 3z"
+                    ></path>
+                    <path
+                      style="fill: #17C8BC"
+                      d="M2023 1080 c-61 -37 -79 -108 -43 -168 42 -68 134 -79 191 -23 101
+101 -27 265 -148 191z"
+                    ></path>
+                  </g>
+                  <g
+                    transform="scale(0.045,-0.045) translate(1200, -8500)"
+                    fill="#000000"
+                    stroke="none"
+                  >
+                    <path
+                      style="fill: #fc4a1a"
+                      d="M4260 2358 c0 -457 5 -855 10 -896 20 -153 83 -282 190 -393 80 -81
+157 -132 264 -172 112 -42 282 -50 403 -19 101 26 178 61 244 114 l51 40 27
+-21 c59 -46 141 -91 216 -118 74 -26 90 -28 230 -27 143 0 154 1 233 31 169
+65 305 185 381 336 80 160 75 97 79 1075 l3 872 -230 0 -231 0 -2 -842 -3
+-843 -31 -55 c-41 -72 -103 -112 -184 -118 -73 -5 -122 11 -173 57 -82 73 -77
+10 -77 959 l0 842 -230 0 -229 0 -3 -842 -3 -843 -23 -44 c-46 -85 -119 -131
+-212 -131 -94 0 -173 51 -211 135 -18 38 -19 87 -19 883 l0 842 -235 0 -235 0
+0 -822z"
+                    ></path>
+                  </g>
+                  <text x="110" y="450" font-family="Raleway" font-size="43px" fill="Black">Press to play</text>
                 </g>
               </svg>
             </span>
