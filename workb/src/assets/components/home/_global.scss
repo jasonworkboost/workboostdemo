@@ -87,6 +87,7 @@ img
         border: none;
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         margin: 0!important;
+        z-index: 999;
     }
 .navbar-default .navbar-brand 
     {
@@ -500,6 +501,9 @@ footer
         text-align: center;
         padding: 20px;
     }
+footer div a:hover{
+    cursor: pointer;
+}
 /* end footer */
 
 @media screen and ( max-width: 991px ) {

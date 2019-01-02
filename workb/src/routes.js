@@ -23,16 +23,6 @@ const Admin = resolve => {
         resolve(require('./assets/components/Admin.vue'));
     });
 }
-const Terms = resolve => {
-    require.ensure (['./assets/components/Terms.vue'], () => {
-        resolve(require('./assets/components/Terms.vue'));
-    });
-}
-const Privacy = resolve => {
-    require.ensure (['./assets/components/Privacy.vue'], () => {
-        resolve(require('./assets/components/Privacy.vue'));
-    });
-}
 
 export const routes = [
     { path: '', component: LoginWB},
@@ -61,12 +51,6 @@ export const routes = [
     },
     {path: '/admin', 
         component: Admin 
-    },
-    {path: '/termsofuse', 
-        component: Terms
-    },
-    {path: '/privacy', 
-        component: Privacy
     },
     {path: '/link',
         beforeEnter: (to, from, next) => {

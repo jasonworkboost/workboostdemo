@@ -1,5 +1,14 @@
 <template>
   <section id="privacy">
+    <div class="closeterms" @click="closeLegal()">
+      <svg viewBox="0 0 48 48" width="48px" height="48px">
+        <g fill="#17C8BC" transform="scale(2,2)">
+          <path
+            d="M12,2C6.47,2,2,6.47,2,12c0,5.53,4.47,10,10,10s10-4.47,10-10C22,6.47,17.53,2,12,2z M16.707,15.293 c0.391,0.391,0.391,1.023,0,1.414C16.512,16.902,16.256,17,16,17s-0.512-0.098-0.707-0.293L12,13.414l-3.293,3.293 C8.512,16.902,8.256,17,8,17s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414L10.586,12L7.293,8.707 c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L12,10.586l3.293-3.293c0.391-0.391,1.023-0.391,1.414,0 s0.391,1.023,0,1.414L13.414,12L16.707,15.293z"
+          ></path>
+        </g>
+      </svg>
+    </div>
     <div class="container">
       <h1>
         <strong>Privacy Policy- WorkBoost</strong>
@@ -22,8 +31,11 @@
       <p>Cookies, by themselves, do not tell us any personally identifiable information other than your IP address.</p>
       <p>You may voluntarily de-activate and/or eliminate cookies by following your Internet browser's instructions. However WorkBoost reserves the right to not provide you with the Application if you do, because some base functionality and the security of the Application depend on the use of cookies.</p>
       <p>We may partner with third-party ad networks to either display advertising on our Website or to manage our advertising on other websites. Our ad network partners use cookies and Web beacons to collect non-personally identifiable information about your activities on this and other websites to show you targeted advertising based on your interests. We may partner with third-party data providers to match IP addresses with company names and contact names. Our data partners may use cookies and Web beacons for the purpose of matching IP addresses.</p>
-      <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us at
-        <a href="mailto:hello@workboost.io">hello@workboost.io</a>.
+      <p>
+        Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us at
+        <a
+          href="mailto:hello@workboost.io"
+        >hello@workboost.io</a>.
       </p>
       <p>&nbsp;</p>
       <p>
@@ -32,3 +44,42 @@
     </div>
   </section>
 </template>
+<script>
+import { mapActions } from "vuex";
+export default {
+  methods: {
+    ...mapActions(["closeLegal"])
+  }
+};
+</script>
+
+<style lang="scss">
+#privacy {
+  position: absolute;
+  top:-60px;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 0.90);
+  z-index: 9999;
+}
+#privacy .container {
+  background: white;
+  height: 40%;
+  padding-top: 80px;
+}
+#privacy .closeterms {
+  height: 100px;
+  width: 60px;
+  position: fixed;
+  left: 80%;
+  top: 30px;
+}
+
+#privacy .closeterms:hover,
+#privacy .closeterms svg g:hover {
+  fill: red;
+  cursor: pointer;
+}
+</style>
+
