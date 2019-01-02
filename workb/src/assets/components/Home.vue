@@ -64,6 +64,14 @@ export default {
 <style lang="scss">
 @import "./home/_global.scss";
 // @import "./home/_variables.scss";
+#home{
+    background: url("../img/bgoffice.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #fff;
+    margin-top: 70px;
+    width: 100%;
+}
 
 .load-enter-active, .load-leave-active {
     transition: all .5s;

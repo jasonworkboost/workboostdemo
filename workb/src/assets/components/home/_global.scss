@@ -156,14 +156,8 @@ img
 /* start home */       
 #home
     {
-    /* I dont know how to work around this in webpack */
-    background: url('https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?cs=srgb&dl=architectural-design-architecture-ceiling-380768.jpg&fm=jpg') no-repeat;
-    background-size: cover;
-    background-color: #fff;
-    color: black;
-    margin-top: 70px;
-    text-align: center;
-    width: 100%;
+    /* I dont know how to work around this in webpack 
+    scss messes up paths so import bg image in the component*/
     }
 #home .red{
     color: #fc4a1a;
@@ -171,7 +165,7 @@ img
 #home p
     {
         font-weight: 500;
-        font-style: italic;
+        font-style: normal;
         line-height: 2em;
         text-align: left;
         font-size: large;
@@ -189,10 +183,6 @@ img
     }
 #home .phoneblob {
     position: relative;
-}
-
-#home .phoneblob #phone {
-    z-index: 1;
 }
 
 @keyframes blobani{
@@ -229,6 +219,7 @@ img
     -moz-box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.3);
     border-color: white;
+    border-radius: 10px;
 }
 
 #home .calltoaction:before{
@@ -237,7 +228,7 @@ img
     height: 100%; 
     position: absolute; 
     background-color:rgba(255,204,0,1);
-    border-radius: 5px;
+    border-radius: 10px;
     left: 0;
      top: 0; 
      transition:.2s;
@@ -280,12 +271,14 @@ img
 }
 
 #home #darrow{
-    left: 50%;
-    transform: translateX(-50%);
     animation: darrow;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
+}
+
+#home #darrow:hover{
+    cursor: pointer;
 }
 /* end home */
 
@@ -449,7 +442,7 @@ img
 #contact
     {
         /* I dont know how to work around this in webpack */
-        //background: url('../src/assets/images/contact-bg.jpg') no-repeat;
+        /* //background: url('../src/assets/images/contact-bg.jpg') no-repeat;*/
         //background-size: cover;
         color: #fff;
     }
