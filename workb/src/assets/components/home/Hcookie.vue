@@ -195,8 +195,7 @@ l-48 -30 -614 -3 -613 -3 0 -230 0 -230 648 3 647 3 80 28 c121 43 181 82 275
             <span class="text-justify">
               <p>Conform
                 <a href="https://eugdpr.org/">the GDPR law</a>, we like to inform you that we use cookies to ensure that you and our other users can enjoy our services. Review our
-                <a href="#">Privacy Policy</a> and
-                <a href="#">Terms of Use</a> for details.
+                <a href="#">Privacy Policy</a> for details.
               </p>
             </span>
             <button class="btn-lg" @click="accept">Accept and continue</button>
