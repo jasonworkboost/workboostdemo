@@ -9,8 +9,8 @@
            <div class="testimonial-quote">
             <blockquote>
                 <p>We believe that the key to organizational success is to have 
-          a strategy that converts into value creation. That’s why we are dedicated to challenging organizations to critically reflect on the way they design 
-          and deploy their strategy, and helping create strategy that translates into results.”</p>
+          a strategy that converts into value creation. That’s why we are dedicated to helping create strategy that translates into results by challenging organizations to critically reflect on the way they design 
+          and deploy their strategy.”</p>
             </blockquote>  
             <cite><span>Jason Gawke</span><br>
                 CEO-WorkBoost
