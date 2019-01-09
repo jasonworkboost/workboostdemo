@@ -1,16 +1,6 @@
 <template>
-  <section id="terms">
-    <div class="closeterms" @click="closeLegal()">
-      <svg viewBox="0 0 48 48" width="48px" height="48px">
-        <g fill="#17C8BC" transform="scale(2,2)">
-          <path
-            d="M12,2C6.47,2,2,6.47,2,12c0,5.53,4.47,10,10,10s10-4.47,10-10C22,6.47,17.53,2,12,2z M16.707,15.293 c0.391,0.391,0.391,1.023,0,1.414C16.512,16.902,16.256,17,16,17s-0.512-0.098-0.707-0.293L12,13.414l-3.293,3.293 C8.512,16.902,8.256,17,8,17s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414L10.586,12L7.293,8.707 c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L12,10.586l3.293-3.293c0.391-0.391,1.023-0.391,1.414,0 s0.391,1.023,0,1.414L13.414,12L16.707,15.293z"
-          ></path>
-        </g>
-      </svg>
-    </div>
-    <div class="container">
-      <h1>
+     <div id="terms">
+          <h1>
         <strong>Terms and Conditions - WorkBoost</strong>
       </h1>
       <p>
@@ -460,44 +450,11 @@
       <p>20.1 These Terms shall be governed by and construed in accordance with the laws of the Netherlands without taking into consideration its principles of choice of law.</p>
       <p>20.2 Any dispute, controversy or claim arising out of or in connection with these Terms, or the breach, termination or invalidity thereof, shall be finally settled by the City Court of The Hague.</p>
     </div>
-  </section>
 </template>
-<script>
-import { mapActions } from "vuex";
-export default {
-  methods: {
-    ...mapActions(["closeLegal"])
-  }
-};
-</script>
 <style lang="scss">
 #terms {
-  position:absolute;
-  top:-60px;
-  left:0;
-  right: 0px;
-  bottom: 0px;
-  background: rgba(255, 255, 255, 0.90);
-  z-index: 9999;
-}
-#terms .container {
   background: white;
   height: 330%;
   padding-top: 80px;
-
-}
-#terms .closeterms {
-  height: 100px;
-  width: 60px;
-  position: fixed;
-  left: 80%;
-  top: 30px;
-}
-
-#terms .closeterms:hover,
-#terms .closeterms svg g:hover {
-  fill: red;
-  cursor: pointer;
 }
 </style>
-

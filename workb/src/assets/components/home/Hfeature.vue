@@ -5,7 +5,9 @@
     <div class="row">
       <div class="col-md-6">
         <h2 class="text-uppercase">Keep it simple</h2>
-        <p>Describing a strategy favors complexity, but executing it requires simplicity. WorkBoost helps translate your strategy into a handful of day to day activities that employees can do. 
+        <p>Describing strategy favors complexity, but to propel business forward requires simplicity. 
+The success of your organizations depends on whether your strategy is simple enough for employees at every 
+level of the organization to understand, communicate, and remember. 
         </p>
       </div>
       <div class="col-md-6">
@@ -19,35 +21,41 @@
       <div class="col-md-6">
         <!-- <img src="~assets/images/software-img.png" class="img-responsive" alt="feature img"> -->
       </div>
+      <div class="col-md-6">
+        <h2 class="text-uppercase">Set strategic priorities</h2>
+        <p>Drawing from the managerial and behavioral sciences, we have created the WorkBoost-method. 
+This step by step method helps translate complex strategy into a set of strategic priorities 
+that provide concrete guidelines for day to day decisions while also maintaining flexibility. 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
       <div class="col-md-6">
         <h2 class="text-uppercase">Foster engagement</h2>
-        <p>Without employee engagement strategies can’t convert. WorkBoost uses the principles of corporate nudging and gamification to keep employees engaged to make new skills, knowledge, and behaviors their own. 
+        <p>We use the WorkBoost app strengthen employees’ focus on key behaviors, as well as increase engagement and commitment to strategic goals. 
+The WorkBoost app is highly customizable progressive web-application and incorporates principles of corporate nudging and gamification to gather key metrics and feedback. 
         </p>
+      </div>
+      <div class="col-md-6">
+        <!-- <img src="~assets/images/software-img.png" class="img-responsive" alt="feature img"> -->
       </div>
     </div>
   </div>
 
   <div class="container">
     <div class="row">
+      <div class="col-md-6">
+        <!-- <img src="~assets/images/software-img.png" class="img-responsive" alt="feature img"> -->
+      </div>
       <div class="col-md-6">
         <h2 class="text-uppercase">Evidence based</h2>
-        <p>Why do employees do what they do, or why do they choose not to do what you expect them to do? WorkBoost provides valuable insights and metrics into employee experiences, behaviors and drivers. 
-        </p>
-      </div>
-      <div class="col-md-6">
-        <!-- <img src="~assets/images/software-img.png" class="img-responsive" alt="feature img"> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <!-- <img src="~assets/images/software-img.png" class="img-responsive" alt="feature img"> -->
-      </div>
-      <div class="col-md-6">
-        <h2 class="text-uppercase">Lean and flexible</h2>
-        <p> WorkBoost is developed to take up any strategic challenge you throw at us. Create your own corporate nudges, use your own reward systems, add your own logo and customize color schemes to fully customize the WorkBoost app. 
+        <p>
+WorkBoost is highly empirical; we test and trial our methods before they are scaled up. 
+In addition, we closely collaborate with leading universities to refine and extend our 
+knowledge on how organizations can effectively turn strategy into results. See <a href="#">forScience</a> for more information. 
         </p>
       </div>
     </div>
@@ -56,8 +64,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h2 class="text-uppercase">State of the Art</h2>
-        <p>WorkBoost is state of the art. Universities across the globe collaborate with WorkBoost to test, refine, and extend our knowledge regarding how practitioners can effectively turn strategy into results. 
+        <h2 class="text-uppercase">looking forward</h2>
+        <p>WorkBoost has successfully helped a multitude of organizations in simplifying their strategies. 
+          These results strengthen our beliefs that we are on the right path to change the way organizations design and deploy strategy. 
+Are you interested how WorkBoost can help you translate your strategy into results? Send us a message and lest discuss!
         </p>
       </div>
       <div class="col-md-6">

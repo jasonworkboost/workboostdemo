@@ -8,6 +8,7 @@ export const store = new Vuex.Store({
     state: {
         showTerms: false,
         showPrivacy: false,
+        showLegal: false,
         detailview: false,
         valCheck: '',
         mainRequest: '',////this will get the entire array, kijken wat handig is
@@ -177,7 +178,7 @@ export const store = new Vuex.Store({
             return state.resultDetailsSelect;
         },
         legalWB: state => {
-            return { showTerms: state.showTerms, showPrivacy: state.showPrivacy} 
+            return { showLegal: state.showLegal, showTerms: state.showTerms, showPrivacy: state.showPrivacy} 
         }
     },
     mutations: {
@@ -350,16 +351,17 @@ export const store = new Vuex.Store({
             state.labels.footerMessage2 = payload.lang.footerMessage2;
         },
         closeLegal: state => {
-            state.showTerms = false;
-            state.showPrivacy= false;
+            state.showLegal= false;
         },
         openTerms: state => {
             state.showTerms = true;
             state.showPrivacy= false;
+            state.showLegal = true;
         },
         openPrivacy: state => {
             state.showTerms = false;
             state.showPrivacy= true;
+            state.showLegal = true;
         }
     },
     actions: {
@@ -516,15 +518,12 @@ export const store = new Vuex.Store({
             })
         },
         closeLegal: (context) => {
-            console.log('closinn');
            context.commit('closeLegal'); 
         },
         openTerms: (context) => {
-            console.log('openterms');
            context.commit('openTerms'); 
         },
         openPrivacy: (context) => {
-            console.log('openPrivacy');
            context.commit('openPrivacy'); 
         },
     }
