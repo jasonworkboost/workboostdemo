@@ -30,7 +30,7 @@ h4
         font-weight: bold;
     }
 /* end h1 group */
-p { line-height: 1.6em; }
+p { line-height: 1.6em; font-size: 1.2em; }
 /* img */
 img
     {
@@ -56,6 +56,10 @@ img
        padding-top: 90px;
        padding-bottom: 90px;
     }  
+
+.text-justify{
+    text-align: justify;
+}
 /* over lay */
 
 /* start page container */
@@ -273,9 +277,6 @@ img
     animation-timing-function: linear; 
 }
 
-#home #darrow:hover{
-    cursor: pointer;
-}
 /* end home */
 
 /* start divider */
@@ -299,8 +300,8 @@ img
 /* start feature */
 #feature
     {
-        background: #f8f8f8;
-        padding-top: 80px;
+        background: #fff;
+        padding-top: 0px;
         padding-bottom: 80px;
     }
 #feature p

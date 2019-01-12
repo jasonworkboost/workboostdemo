@@ -163,7 +163,7 @@ l2310 -2 0 -4115z"
           </div>
           <div class="col-md-12 text-center">
             <svg id="darrow" width="60px" height="35px" viewBox="0 0 960 560"
-            @click: v-scroll-to="'#feature'">
+            >
               <g fill="white">
                 <path
                   d="M480,344.181L268.869,131.889c-15.756-15.859-41.3-15.859-57.054,0c-15.754,15.857-15.754,41.57,0,57.431l237.632,238.937
