@@ -11,7 +11,7 @@
                 <!-- <p>
                     We believe that the key to organizational success is to have a strategy that converts into value creation. That’s why we are dedicated to helping organizations design and deploy strategy that can do just that.
                     We believe that organizations should be able to use all their resources to do what they do best: create value. We are here to ensure that organizations can do just by helping organization design and deploy strategy that converts.”</p> -->
-          <p>We believe that organizations should be able to use all their resources to do what they do best: <span style="color: #fc4a1a; font-weight: 500;"> Create Value</span>. That's why we are dedicated to helping organizations design and deploy strategy that engage and propel your business forward.
+          <p>We believe that organizations should be able to use all their resources to do what they do best: <span style="color: #fc4a1a; font-weight: 500;"> Create Value</span>. That's why we are dedicated to helping organizations design and deploy strategy that foster employee engagement and propel your business forward.
           </p>
             </blockquote>  
             <cite><span>Jason Gawke</span><br>
