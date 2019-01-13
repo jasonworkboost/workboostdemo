@@ -8,10 +8,10 @@
           and deploy their strategy, and helping them to creat a strategy for results.</h2> -->
            <div class="testimonial-quote text-center">
             <blockquote>
-                <!-- <p>We believe that the key to organizational success is to have 
-          a strategy that converts into value creation. That’s why we are dedicated to helping organizations critically reflect on the way they design 
-          and deploy their strategy to ranslates into results.”</p> -->
-          <p>We believe that the key to organizational success is to have a strategy that converts into value creation. That’s why we are dedicated to helping organizations design and deploy strategy that translates into results.
+                <!-- <p>
+                    We believe that the key to organizational success is to have a strategy that converts into value creation. That’s why we are dedicated to helping organizations design and deploy strategy that can do just that.
+                    We believe that organizations should be able to use all their resources to do what they do best: create value. We are here to ensure that organizations can do just by helping organization design and deploy strategy that converts.”</p> -->
+          <p>We believe that organizations should be able to use all their resources to do what they do best: <span style="color: #fc4a1a; font-weight: 500;"> Create Value</span>. That's why we are dedicated to helping organizations design and deploy strategy that engage and propel your business forward.
           </p>
             </blockquote>  
             <cite><span>Jason Gawke</span><br>

@@ -2,72 +2,64 @@
   <section id="feature">
     <div class="container">
       <div class="row center">
-        <div class="col-md-12 text-center">
-          <h4 class="text-uppercase" style="color: #75808;">how we contribute</h4>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row center">
-        <div class="col-md-6 item1" id="i1">
-          <h3 class="text-uppercase text-left">Keep it simple</h3>
-          <p
-            class="text-justify"
-          >Strategy is often complex, but to propel your business forward requires simplicity. WorkBoost centers on helping you create strategy that is simple enough for employees at every level of the organization to understand, communicate, and remember.</p>
-        </div>
-        <div class="col-md-6 text-center">
-          <i class="fas fa-baby icon-des"></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row center">
-        <div class="col-md-6 text-center">
-          <i class="fas fa-list-ol icon-des"></i>
-        </div>
-        <div class="col-md-6 item1" id="i2">
-          <h3 class="text-uppercase text-left">Set priorities</h3>
-          <p
-            class="text-justify"
-          >Strategic priorities provide concrete guidelines for day to day decisions while also maintaining flexibility. Our step by step method translates your strategy into a set of strategic priorities.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row center">
-        <div class="col-md-6 item1" id="i3">
-          <h3 class="text-uppercase">Foster engagement</h3>
-          <p
-            class="text-justify"
-          >Without employee engagement your strategy can not convert. We have created the WorkBoost app to strengthen employees’ focus on key behaviors, as well as increase engagement and commitment to strategic goals.</p>
-        </div>
-        <div class="col-md-6 text-center">
-          <i class="fab fa-telegram-plane icon-des"></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row center">
-        <div class="col-md-6 text-center">
-          <i class="fas fa-chart-pie icon-des"></i>
-        </div>
-        <div class="col-md-6 item1" id="i4">
-          <h3 class="text-uppercase">Monitor and iterate</h3>
-          <p
-            class="text-justify"
-          >WorkBoost is highly empirical; we integrate state of the art insights of the managerial and behavioral sciences in our methods, and test our methods before they are scaled up.</p>
-        </div>
+        <div class="col-md-12 text-center"></div>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
+        <div class="col-md-5 col-xs-12">
+          <h1 class="f-descrip">
+            Turn your strategy into results.
+          </h1>
+          <p>For your strategy to be succesfull, employees who understand, remember, and energized to pursue your strategic goals on a day to day basis are essential.</p> 
+          <p>At WorkBoost we are dedicated to the application of the behavioural sciences. We have helped a multitude of organizations to integrate a realistic model of human behavior into their strategies allowing them to redesign their strategie for results. </P>
+        </div>
+        <div class="col-md-7 col-xs-12">
+          <svg viewBox="0 100 863.000000 1100.000000" preserveAspectRatio="xMidYMid meet" style="position: absolute;">
+            <g transform="translate(100, 650) scale(2,2) rotate(-70, 1, 100)" fill="#ffbc00">
+              <path
+                d="M193.14593579797955,363.59171486655174 C369.8279140454988,307.60358528342596 416.19299588858644,219.37132015089384 398.04387329067833,122.63267580957648 C379.89475069277023,25.894031057757864 189.11035236525888,-17.76948060155364 95.29856460852872,17.298704066259866 C1.486777161543694,52.366888589324006 115.90758748874586,135.9938763082262 42.16285718073018,219.35578603861055 C-31.581872127285493,302.7176952514928 16.46395806796248,419.5798449321753 193.14593579797955,363.59171486655174 Z"
+                transform="translate(194.032601, 187.165872) rotate(-1.000000) translate(-194.032601, -187.165872) "
+              ></path>
+            </g>
+          </svg>
+          <div class="row">
+            <div class="col-md-6 col-xs-12 f-feature">
+              <div class="item1 features" id="i1">
+                <h3 class="text-left">Keep it simple</h3>
+                <p
+                  class="text-justify"
+                >WorkBoost helps you create strategy that employees at every level of the organization can understand, communicate, and remember.</p>
+              </div>
+              <div class="item1 features" id="i2">
+                <h3 class="text-left">Set priorities</h3>
+                <p
+                  class="text-justify"
+                >Use WorkBoost to translate your strategy into strategic priorities to provide concrete guidelines for day to day decisions while also maintaining flexibility.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <div class="item1 features" id="i3">
+                <h3 class="text-left">Engagement</h3>
+                <p
+                  class="text-justify"
+                >Use WorkBoost to strengthen employees’ focus on key behaviors, as well as increase engagement and commitment to strategic goals.</p>
+              </div>
+              <div class="item1 features" id="i4">
+                <h3 class="text-left">Use metrics</h3>
+                <p
+                  class="text-justify"
+                >WorkBoost provides real-time key insights into employee behaviors and motivation that help you fine tune your strategy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
         <div class="col-md-12">
-          <!-- <h2 class="text-uppercase">Title 5</h2> -->
           <p class="text-justify">
             WorkBoost has successfully helped a multitude of organizations in simplifying their strategies. These results strengthen our beliefs that we are on the right path to change the way organizations design and deploy strategy. Are you interested how WorkBoost can help you translate your strategy into results? Send us a message and lets discuss!
             The WorkBoost app is highly customizable progressive web-application and incorporates principles of corporate nudging and gamification to gather key metrics and feedback.
@@ -75,58 +67,46 @@
             <a
               href="#"
             >forScience</a> for more information.
+            WorkBoost is highly empirical; we integrate state of the art insights of the managerial and behavioral sciences in our methods, and test our methods before they are scaled up
           </p>
         </div>
-      </div>
-    </div>
+    </div>-->
   </section>
 </template>
 <script>
 export default {};
 </script>
 <style lang="scss">
-:root {
-  --bg: #fdfdfd;
-  --highlight1: rgb(23, 200, 188);
-  --highlight2: rgb(20, 148, 139);
-  --color: #1a1e24;
-}
-
-#feature .row.center {
-  display: flex;
-  align-items: center;
-}
-#feature i {
-  font-size: 10rem;
-  color: black;
-}
 
 #feature h3 {
-  color: rgb(23, 200, 188);
+  color:white;
+  margin-top: 7px;
 }
 
 .item1 {
-  display: block;
-  clear: both;
-  padding-bottom: 4rem;
+  padding: 1rem;
   position: relative;
   margin-left: 0px;
-  padding-left: 0px;
+  height: 23rem;
+  background-color: rgb(23, 200, 188);
+  color: white;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius: 25px;
 }
 
 .item1:before {
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   content: "";
-  font-size: 5rem;
-  width: 9rem;
-  height: 9rem;
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
   float: left;
   margin: 0 1.5rem 0.75rem 0;
-  color: var(--bg);
-  background: var(--highlight1)
-    linear-gradient(to bottom right, var(--highlight1) 25%, var(--highlight2));
-  text-shadow: 0 0 2px var(--highlight1);
+  color: white;
+  background: rgb(23, 200, 188);
+  text-shadow: 0 0 2px rgb(23, 200, 188);
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -149,15 +129,21 @@ export default {};
   content: "\f200";
 }
 
-.item1:after {
-  width: 4.5rem;
-  height: 4.5rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  background: var(--highlight1);
-  z-index: 0;
-  border-top-left-radius: 3px;
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+.features {
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+
+.f-feature {
+  margin-top: 75px;
+}
+
+.f-descrip{
+  margin-top: 130px;
 }
 </style>
