@@ -1,5 +1,5 @@
 <template>
-  <section id="feature">
+  <section id="research">
     <!-- <div class="container">
       <div class="row center">
         <div class="col-md-12 text-center"></div>
@@ -10,11 +10,10 @@
       <div class="row">
         <div class="col-md-5 col-xs-12">
           <h1 class="f-descrip">
-            <span style="color: #fc4a1a; font-weight: 500;">Design&nbsp;</span>
-            for success.</h1>
-          <p class="pcorrect">The succes of your organization depends on employees who understand, remember, and are energized to pursue your strategic goals on a day to day basis.</p> 
-          <p class="pcorrect">By integrating a realistic model of human behavior into your strategy and policy, we can help you develop a set of priorities that everyone gets behind to produce results</p>
-          <p class="pcorrect">Curious? Get in touch and lets plan a meeting! [CALL TO ACTION]</p>
+            <span style="color: #fc4a1a; font-weight: 500;">Drive&nbsp;</span>research for the future.</h1>
+          <p>The succes of your strategy depends on employees who understand, remember, and are energized to pursue your strategic goals on a day to day basis.</p> 
+          <p>At WorkBoost we are dedicated to the application of the behavioral sciences for strategic management.</p>
+          <p>Curious how we can help you integrate a realistic model of human behavior into your strategie? </p>
         </div>
         <div class="col-md-7 col-xs-12">
           <svg viewBox="0 100 863.000000 1100.000000" preserveAspectRatio="xMidYMid meet" style="position: absolute;">
@@ -80,7 +79,7 @@ export default {};
 </script>
 <style lang="scss">
 
-#feature h3 {
+h3 {
   color:white;
   margin-top: 7px;
 }
@@ -156,9 +155,5 @@ export default {};
     left: 15px;
     height: 10px;
     width: 130px;
-}
-
-.pcorrect{
-  margin-right: 63px;
 }
 </style>

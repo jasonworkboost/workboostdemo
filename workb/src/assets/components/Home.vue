@@ -9,6 +9,7 @@
     <wb-feature></wb-feature>
     <!-- <wb-pricing></wb-pricing> -->
     <wb-download></wb-download>
+    <wb-research></wb-research>
     <wb-contact></wb-contact>
     <wb-pagefooter></wb-pagefooter>
 </div>  
@@ -20,6 +21,7 @@ import Divider from './home/Hdivider.vue';
 import Feature from './home/Hfeature.vue';
 import Pricing from './home/Hpricing.vue';
 import Download from './home/Hdownload.vue';
+import Research from './home/Hresearch.vue';
 import Contact from './home/Hcontact.vue';
 import Pagefooter from './home/Hpagefooter.vue';
 import Loadscreen from './question/Qloadscreen.vue'
@@ -54,6 +56,7 @@ export default {
         wbContact: Contact,
         wbPagefooter: Pagefooter,
         wbLoadscreen: Loadscreen,
+        wbResearch: Research,
     },
     created(){
         this.loader();

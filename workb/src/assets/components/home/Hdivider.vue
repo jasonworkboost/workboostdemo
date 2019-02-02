@@ -10,8 +10,11 @@
             <blockquote>
                 <!-- <p>
                     We believe that the key to organizational success is to have a strategy that converts into value creation. That’s why we are dedicated to helping organizations design and deploy strategy that can do just that.
-                    We believe that organizations should be able to use all their resources to do what they do best: create value. We are here to ensure that organizations can do just by helping organization design and deploy strategy that converts.”</p> -->
-          <p>We believe that organizations should be able to use all their resources to do what they do best: <span style="color: #fc4a1a; font-weight: 500;"> Create Value</span>. That's why we are dedicated to helping organizations design and deploy strategy that foster employee engagement and propel your business forward.
+                    We believe that organizations should be able to use all their resources to do what they do best: create value. We are here to ensure that organizations can do just by helping organization design and deploy strategy that converts.”
+                    We believe that employee engagement is key for organizational succes and value creaion. That's why we help organizations design and deploy strategy that foster employee engagement and drive research that propel business forward.""
+                    We believe that employee engagement is key for organizational success. That's why we help organizations and deploy strategy that foster employee engagement and drive research that propels business forward.
+                    </p> -->
+          <p>We believe that employee engagement is key to an organization's success. That's why we help organizations <span style="color: #fc4a1a; font-weight: 500;">design</span> and<span style="color: #fc4a1a; font-weight: 500;"> deploy</span> a strategy that fosters employee engagement, and <span style="color: #fc4a1a; font-weight: 500;"> drive</span> research practices for sustainable performance.
           </p>
             </blockquote>  
             <cite><span>Jason Gawke</span><br>
@@ -37,7 +40,7 @@ export default {
     border: 0;
     margin-bottom: 40px;
     padding: 0;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-style: italic;
     line-height: 1.8 !important;
     position: relative;
@@ -52,7 +55,7 @@ export default {
 .testimonial-quote blockquote p {
     color: #75808a; 
     padding-top: 30px;
-    line-height: 1.8 !important;
+    line-height: 1.5 !important;
 }
 
 .testimonial-quote blockquote p:first-child:before {
